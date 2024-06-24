@@ -1,0 +1,32 @@
+######### First turn ##########
+                                                           score
+model                                             turn          
+phi-3-mini-128k-instruct-simpo-lr-5e-07-gamma-1.5 1     8.456790
+Phi-3-mini-128k-instruct                          1     8.339286
+phi-3-mini-128k-instruct-dpo-lr-5e-07             1     8.268293
+qwen2-1.5b-instruct-simpo-lr-5e-07-gamma-1.5      1     7.190476
+Qwen2-1.5B-Instruct                               1     7.017647
+qwen2-0.5b-instruct-simpo-lr-5e-07-gamma-1.5      1     5.140244
+Qwen2-0.5B-Instruct                               1     4.625000
+
+########## Second turn ##########
+                                                           score
+model                                             turn          
+phi-3-mini-128k-instruct-dpo-lr-5e-07             2     7.962963
+phi-3-mini-128k-instruct-simpo-lr-5e-07-gamma-1.5 2     7.750000
+Phi-3-mini-128k-instruct                          2     7.666667
+qwen2-1.5b-instruct-simpo-lr-5e-07-gamma-1.5      2     5.691358
+Qwen2-1.5B-Instruct                               2     5.160494
+qwen2-0.5b-instruct-simpo-lr-5e-07-gamma-1.5      2     4.076923
+Qwen2-0.5B-Instruct                               2     3.787500
+
+########## Average ##########
+                                                      score
+model                                                      
+phi-3-mini-128k-instruct-dpo-lr-5e-07              8.116564
+phi-3-mini-128k-instruct-simpo-lr-5e-07-gamma-1.5  8.105590
+Phi-3-mini-128k-instruct                           8.009091
+qwen2-1.5b-instruct-simpo-lr-5e-07-gamma-1.5       6.454545
+Qwen2-1.5B-Instruct                                6.111446
+qwen2-0.5b-instruct-simpo-lr-5e-07-gamma-1.5       4.621875
+Qwen2-0.5B-Instruct                                4.206250
